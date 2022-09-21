@@ -1,0 +1,36 @@
+.background {
+    height: 100%;
+    background-color: #e5e5e5;
+}
+
+.v-treeview {
+    font-size: 17px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    a {
+        color: #000!important;
+    }
+    .v-treeview-node__children {
+        a {
+            font-weight: 400;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        .v-treeview-node__root {
+            min-height: 28px!important;
+        }
+    }
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.additional-field {
+    text-transform: capitalize;
+}
+
+.v-treeview-node__root {
+    min-height: 38px!important;
+}
