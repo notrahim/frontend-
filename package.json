@@ -9,7 +9,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "npm run build"
+    "start": "npm run serve"
   },
   "dependencies": {
     "@vue/cli-plugin-babel": "^5.0.8",
