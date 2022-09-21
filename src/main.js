@@ -6,7 +6,7 @@ import vuetify from "./plugins/vuetify";
 import axios from "axios";
 import "./scss/style.scss";
 
-axios.defaults.baseURL = "http://localhost:3000/";
+axios.defaults.baseURL = "https://quiet-chamber-34955.herokuapp.com/";
 
 axios.interceptors.response.use(undefined, function (error) {
   if (error) {
