@@ -2,6 +2,9 @@
   "name": "formalis-app",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.15.1"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -35,5 +38,4 @@
     "vue-template-compiler": "^2.6.11",
     "vuetify-loader": "^1.7.0"
   }
-
 }
