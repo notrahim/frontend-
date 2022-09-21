@@ -34,11 +34,7 @@
     "vuetify-loader": "^1.9.2"
   },
   "devDependencies": {
-    "prettier": "^2.2.1",
-    "sass": "~1.32.0",
-    "sass-loader": "^10.0.0",
-    "vue-loader-v16": "^16.0.0-beta.5.4",
-    "vue-template-compiler": "^2.6.11"
+
 
   }
 }
